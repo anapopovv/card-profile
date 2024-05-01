@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+
+    <main>
+        <section>
+            <div class="card">
+                <div class="edit-img">
+                    <div class="btns">
+                        <button onclick="editar()"><img src="/edicao.png" alt=""></button>
+                        <button onclick="salvar()"><img src="/salvar.png" alt=""></button>
+                    </div>
+
+                    <img class="perfil" src="/perfil.png" alt="">
+                </div>
+                    
+                <div class="div-infos">
+                    <div class="div-names">
+                        <h1 id="nome" class="editable">Ana Popov</h1>
+                        <p id="username" class="editable">@anapopov</p>
+                    </div>
+            
+                    <div class="list-row">
+                        <div class="list-coluna">
+                            <p id="number-skills" class="editable">90</p>
+                            <p style="opacity: 50%; font-weight: 100;">Skills</p>
+                        </div>
+            
+                        <div class="list-coluna">
+                            <p id="number-projects" class="editable">3</p>
+                            <p style="opacity: 50%; font-weight: 100;">Projects</p>
+                        </div>
+            
+                        <div class="list-coluna">
+                            <p id="number-coffees" class="editable">5</p>
+                            <p style="opacity: 50%; font-weight: 100;">Cafés</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-rede-social">
+                    <img src="/instagram.png" alt="">
+                    <p id="insta" class="editable" contenteditable="true">Não informado</p>
+                </div>
+
+                <div class="div-rede-social">
+                    <img src="/whatsapp.png" alt="">
+                    <p id="whats" class="editable" contenteditable="true">Não informado</p>
+                </div>
+
+                <div class="div-rede-social">
+                    <img src="/github.png" alt="">
+                    <p id="git" class="editable" contenteditable="true">Não informado</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="/index.js"></script>
+</body>
+</html>
